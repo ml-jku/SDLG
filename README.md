@@ -40,11 +40,11 @@ pip install -r requirements.txt
 
 ### Running the Code
 
-1. Set the hyperparameters in 'args.py' accordingly. 
+1. Set hyperparameters in ```args.py``` 
 
-2. Run the experiments with 'run_experiments.py'
+2. Run experiments with ```run_experiments.py```
 
-3. The results can be analyzed using 'analyze_results.ipynb'.
+3. Analyze results with ```analyze_results.ipynb```
 
 
 ## Contact
