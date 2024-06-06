@@ -1,0 +1,101 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "rc.nocontext",
+  "dataset_name": "trivia_qa",
+  "dataset_size": 124610463,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc.nocontext/train-00000-of-00001.parquet": {
+      "num_bytes": 55391498,
+      "checksum": null
+    },
+    "hf://datasets/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc.nocontext/validation-00000-of-00001.parquet": {
+      "num_bytes": 7335321,
+      "checksum": null
+    },
+    "hf://datasets/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc.nocontext/test-00000-of-00001.parquet": {
+      "num_bytes": 1199699,
+      "checksum": null
+    }
+  },
+  "download_size": 63926518,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "decoder_input_ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "decoder_attention_mask": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 188536981,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 106882730,
+      "num_examples": 138384,
+      "dataset_name": "trivia_qa"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 14059830,
+      "num_examples": 17944,
+      "dataset_name": "trivia_qa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3667903,
+      "num_examples": 17210,
+      "dataset_name": "trivia_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
