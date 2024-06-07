@@ -7,6 +7,14 @@ _Lukas Aichberger<sup>1</sup>, Kajetan Schweighofer<sup>1</sup>, Mykyta Ielansky
 
 ---
 
+## Key Insights
+
+1. Provides a method to generate semantically diverse yet likely output sequences :brain:
+2. Establishes a theoretical foundation for uncertainty measures in NLG :abacus:
+3. Outperforms existing uncertainty estimation methods in free-form question-answering tasks :bar_chart:
+
+
+## Abstract
 Large language models (LLMs) can suffer from hallucinations when generating
 text. These hallucinations impede various applications in society and industry by
 making LLMs untrustworthy. Current LLMs generate text in an autoregressive
@@ -21,7 +29,8 @@ to be hallucinated. Experiments on question-answering tasks demonstrate that SDL
 consistently outperforms existing methods while being the most computationally
 efficient, setting a new standard for uncertainty estimation in LLMs.
 
-[SDLG](SDLG.pdf)
+![alt text](SDLG.png)
+
 
 ## Installation
 
