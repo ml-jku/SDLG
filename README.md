@@ -59,7 +59,7 @@ Please consider giving our work a star :star: and cite it
 @article{aichberger2024sdlg,
       title={Semantically Diverse Language Generation for Uncertainty Estimation in Language Models}, 
       author={Lukas Aichberger and Kajetan Schweighofer and Mykyta Ielanskyi and Sepp Hochreiter},
-      journal={arXiv},
+      journal={arXiv preprint arXiv:2406.04306},
       year={2024}
 }
 ```
