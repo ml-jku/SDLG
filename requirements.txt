@@ -1,0 +1,19 @@
+accelerate==0.33.0
+bleurt @ git+https://github.com/google-research/bleurt.git@c6f2375c7c178e1480840cf27cb9e2af851394f9
+datasets==2.19.1
+evaluate==0.4.0
+jupyterlab==4.2.4
+matplotlib==3.9.1
+numpy==1.26.4
+pandas==2.2.2
+pyarrow==16.1.0
+PyYAML==6.0.1
+rouge-score==0.1.2
+scikit-learn==1.5.1
+seaborn==0.13.2
+sentencepiece==0.2.0
+tensorflow==2.17.0
+tf-slim==1.1.0
+torch==2.4.0
+tqdm==4.66.4
+transformers==4.46.2

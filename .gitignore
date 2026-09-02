@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Editors and notebooks
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Generated results and local caches
+results/
+outputs/
+artifacts/
+wandb/
+slurm-*.out
+*.pkl
+*.pt
+*.safetensors
+.cache/
+huggingface/
+datasets/coqa_dataset/
+datasets/trivia_qa_dataset/
+datasets/truthful_qa_dataset/

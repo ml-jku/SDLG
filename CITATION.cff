@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the ICLR 2025 paper."
+title: "SDLG: Semantically Diverse Language Generation"
+type: software
+authors:
+  - family-names: Aichberger
+    given-names: Lukas
+  - family-names: Schweighofer
+    given-names: Kajetan
+  - family-names: Ielanskyi
+    given-names: Mykyta
+  - family-names: Hochreiter
+    given-names: Sepp
+repository-code: "https://github.com/ml-jku/SDLG"
+url: "https://proceedings.iclr.cc/paper_files/paper/2025/file/b94d8b035e2183e47afef9e2f299ba47-Paper-Conference.pdf"
+license: BSD-3-Clause-Clear
+preferred-citation:
+  type: conference-paper
+  title: "Improving Uncertainty Estimation through Semantically Diverse Language Generation"
+  authors:
+    - family-names: Aichberger
+      given-names: Lukas
+    - family-names: Schweighofer
+      given-names: Kajetan
+    - family-names: Ielanskyi
+      given-names: Mykyta
+    - family-names: Hochreiter
+      given-names: Sepp
+  collection-title: "International Conference on Learning Representations"
+  year: 2025
+  url: "https://proceedings.iclr.cc/paper_files/paper/2025/file/b94d8b035e2183e47afef9e2f299ba47-Paper-Conference.pdf"
